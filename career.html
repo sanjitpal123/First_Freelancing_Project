@@ -62,7 +62,7 @@
 
     <!-- header navigation start here -->
     <div
-      class="w-full h-[130px] mt-[150px] bg-black text-white border-b-4 border-grey-700 relative box-border"
+      class="w-full h-[130px] mt-[0px] bg-black text-white border-b-4 border-grey-700 relative box-border"
     >
       <div
         class="lg:w-[200px] w-[140px] py-4 top-1 h-[100%] border-b-4 border-pink-700 absolute lg:ml-9 ml-5"
@@ -217,10 +217,10 @@
 
         e.name === "menu"
           ? ((e.name = "close"),
-            list.classList.add("top-[130px]"),
+            list.classList.add("top-[120px]"),
             list.classList.add("opacity-100"))
           : ((e.name = "menu"),
-            list.classList.remove("top-[130px]"),
+            list.classList.remove("top-[120px]"),
             list.classList.remove("opacity-100"));
       }
     </script>
